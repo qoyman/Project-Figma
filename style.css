@@ -1,0 +1,49 @@
+body {
+  background: rgb(197, 233, 245);
+}
+
+header .fotsocials {
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.nav-bar {
+  display: none;
+}
+
+.headset-small {
+  width: 272px;
+  height: 272px;
+  left: 80px;
+  top: 76px;
+  border-radius: 136px;
+}
+
+button {
+  border-radius: 30px;
+  background-color: #0F4382;
+  color: white;
+  width: 139px;
+  height: 40px;
+}
+
+@media (min-width: 767px) {
+  .nav-bar {
+    display: block;
+    width: 336px;
+    left: 387px;
+    top: 74px;
+    padding-top: 5px;
+  }
+  .nav-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .ham-bar {
+    display: none;
+  }
+  .expert {
+    border-radius: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */
